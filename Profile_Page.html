@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile | Citizen of World</title>
+
+	<style type="text/css">
+		
+		#blue_bar{
+			height: 50px;
+			background-color: darkseagreen;
+			color: #d9dfeb;
+		}
+		#search_box{
+			widows: 400px;
+			height: 20px;
+			border-radius: 5px;
+			border: none;
+			padding: 4px;
+			font-size: 14px;
+			background-image: url(zoom-lens.png);
+			background-size: 20px;
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+
+
+		#profile_pic{
+			width: 150px;
+			margin-top: -200px;
+			border-radius: 60px;
+			border: solid 2px white;
+		}
+
+		#menu_buttons{
+			width: 100px;
+			background-color: beige;
+			display: inline-block;
+			margin: 2px;
+		}
+
+		#friends_img{
+			height: 50px;
+			width: 50px;
+			float: left;
+			margin: 4px;
+		}
+
+		#friends{
+			clear: both;
+			font-size: 15px;
+			font-weight: bold;
+			color: #405d9b;
+		}
+
+		textarea{
+			width: 100%;
+			border: none;
+			font-family: tahoma;
+			font-size:  14px;
+			color: blanchedalmond;
+		}
+
+	</style>
+</head>
+<body style="font-family: tahoma; background-color: #d0d8e4;">
+	<br>
+<div style="width: 1500px;">
+	<!--Top-Bar-->
+	<div id="blue_bar">
+		<div style="width: 800px; margin:auto; font-size: 40px; vertical-align: middle; text-align: left;">
+			Citizen of World &nbsp &nbsp <input type="text" id="search_box" placeholder="Search for people">
+		</div>
+	</div>
+
+	<div style="background-color: darkgray;">
+	<!--Cover-Area-->
+		<div style="width: 800px; margin: auto; min-height: 400px; display: block;">
+			<div style="background-color: white; text-align: center; color: #405d9b;">
+			<img src="Cover1.jpg" alt="Cover Photo" style="width: 100%">
+			<img src="Image2.jpg" alt="Profile Photo" id="profile_pic">
+			<br>
+				<div style="background-color: darkred; height: 40px; text-align: center; vertical-align: center; font-size: 30px;">
+					Nilesh Sukhdeve
+				</div>
+						<div id="menu_buttons">Timeline</div>&nbsp&nbsp&nbsp&nbsp 
+						<div id="menu_buttons">About</div>&nbsp&nbsp&nbsp&nbsp
+						<div id="menu_buttons">Friends</div>&nbsp&nbsp&nbsp&nbsp 
+						<div id="menu_buttons">Photos</div>&nbsp&nbsp&nbsp&nbsp 
+						<div id="menu_buttons">Settings</div>
+
+			</div>
+		</div>
+
+		<div style="display: flex; width: 800px; align-self: center; align-content: center; margin: auto; padding: 10px; ">
+
+			<!--friends-area-->
+			<div style="margin: auto; min-height: 400px; flex: 1; background-color: greenyellow;">
+
+				<div style="text-align: center; background-color: orange; min-height: 40px;">
+				Friends
+				</div>
+
+				<div style= "background-color: yellow;">
+				<div id="friends">
+					<img id="friends_img" src="friend1.jpg"><br>
+					Pratik Kale <br>
+				</div>
+
+				<div id="friends">
+					<img id="friends_img" src="friend2.jpg"><br>
+					Ankit Meshram <br>
+				</div>
+
+				<div id="friends">
+					<img id="friends_img" src="friend3.jpg"><br>
+					Gaurav Deshmukh <br>
+				</div>
+
+				<div id="friends">
+					<img id="friends_img" src="friend4.jpg"><br>
+					Yash Deotale <br>
+				</div>
+
+				<div id="friends">
+					<img id="friends_img" src="friend5.jpg"><br>
+					Rohit Limje <br>
+				</div>
+				</div>
+			</div>
+
+			<!--posts-area-->
+			<div style="background-color: rosybrown; min-height: 400px; flex: 2.5;">
+
+				<div style="border: solid thin: #aaa; padding: 10px; background-color: palevioletred;">
+					<textarea placeholder="Hey">
+
+					</textarea>
+				</div>
+
+				<div>
+					<a href="App.js">Hey</a>
+				</div>
+
+				<div>
+					<iframe height="400" width="100%" frameborder="no" src="http://gauravrd.shinyapps.io/Dashboard"> </iframe>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
